@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoursesActivity">
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Выбор курса"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="24sp"/>
+
+    <LinearLayout
+        android:id="@+id/courseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <EditText
+            android:id="@+id/fioBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="ФИО"
+            android:digits="ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮйцукенгшщзхъфывапролджэячсмитьбю- "/>
+
+        <Spinner
+            android:id="@+id/coursesBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:spinnerMode="dialog" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Продолжить"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/rounded_btn"/>
+
+    <TextView
+        android:id="@+id/headerContactsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Контакты"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="24sp"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/contactsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/emailBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_margin="10dp"
+            android:hint="Ваш E-mail"/>
+
+        <EditText
+            android:id="@+id/phoneNumberBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_margin="10dp"
+            android:hint="Ваш номер телефона"/>
+
+        <EditText
+            android:id="@+id/phoneParentNumberBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_margin="10dp"
+            android:hint="Номер телефона вашего родителя"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Подать заявку"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:background="@drawable/rounded_btn"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/headerContactsText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="25dp"
+        android:paddingLeft="25dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Назад"
+        android:visibility="invisible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
