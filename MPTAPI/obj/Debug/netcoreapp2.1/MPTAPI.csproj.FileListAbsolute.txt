@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\MPTAPI\MPTAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\user\source\repos\MPTAPI\MPTAPI\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\user\source\repos\MPTAPI\MPTAPI\bin\Debug\netcoreapp2.1\MPTAPI.deps.json
+C:\Users\user\source\repos\MPTAPI\MPTAPI\bin\Debug\netcoreapp2.1\MPTAPI.runtimeconfig.json
+C:\Users\user\source\repos\MPTAPI\MPTAPI\bin\Debug\netcoreapp2.1\MPTAPI.runtimeconfig.dev.json
+C:\Users\user\source\repos\MPTAPI\MPTAPI\bin\Debug\netcoreapp2.1\MPTAPI.dll
+C:\Users\user\source\repos\MPTAPI\MPTAPI\bin\Debug\netcoreapp2.1\MPTAPI.pdb
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.csprojAssemblyReference.cache
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.AssemblyInfo.cs
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.RazorAssemblyInfo.cache
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.RazorAssemblyInfo.cs
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.RazorTargetAssemblyInfo.cache
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.dll
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.pdb
+C:\Users\user\source\repos\MPTAPI\MPTAPI\obj\Debug\netcoreapp2.1\MPTAPI.genruntimeconfig.cache
